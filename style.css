@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+/* #main {
+  padding: 100px 10%;
+  width: 80%;
+  float: left;
+  font-size: 1.4em;
+} */
+
+@media(min-width: 1441px) {
+  #main {
+  padding: 100px 20%;
+  width: 70%;
+  }
+}
+
+ @media(max-width: 1000px) {
+  #main {
+  padding: 100px 10%;
+  width: 80%;
+  }
+}
+
+ @media(max-width: 700px) {
+  #main header {
+  margin-bottom: 50px;
+  width: 50%!important;
+  }
+}  
+
+
+body {
+  background: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.site-header {
+  padding: 27px 33px;
+  display: flex;
+  gap: 228px;
+}
+
+#logo {
+  width: 55px;
+  height: 62px;
+}
+
+#about {
+  display: flex;
+  gap: 52px;
+}
+
+#about a {
+  text-decoration: none;
+  color: #ffffff;
+
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#about > a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* .langUse {
+  display: flex;
+  padding-left: 227px;
+  padding-top: 47px;
+} */
+
+.langUsePaddings {
+  display: flex;
+}
+
+#langUse {
+  display: flex;
+  padding-top: 47px;
+  margin-right: 1px;
+}
+
+#langUse a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.langUsePaddings > a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+#logoDruzi {
+  width: 210px;
+  height: 92px;
+}
+
+#intro {
+  position: absolute;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+#check {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 280px;
+  color: #FFFFFF;
+}
+
+.mainPaddings {
+  padding: 0px 46px;
+}
+
+.hero {
+  padding: 0px 88px;
+}
+
+.heroContent {
+  padding: 0px 5px;
+  /* padding-top: 74px; */
+}
+
+/*первая страница желтый эмаил*/
+.yellowContainer {
+  width: 228px;
+  height: 49px;
+  /* margin-left: 356px;
+  margin-bottom: 232px; */
+  background: #d3f332;
+  margin-top: -7%;
+  margin-left: 310px;
+}
+
+#email {
+  padding-top: 11px;
+  padding-left: 11px;
+}
+
+#emailHere {
+  width: 152px;
+  height: 29px;
+  left: 509px;
+  top: 677px;
+  padding-left: 8px;
+  padding-top: 110px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 276;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+/*текст на второй странице*/
+#check1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+    position: absolute;
+    padding-left: 46px;
+  }
+
+
+.text1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 44px;
+    padding-top: 167px;
+    color: #FFFFFF;
+    padding-left: 107px;
+    padding-top: 156px;
+    
+  }
+.text2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 44px;
+    padding-top: 167px;
+    color: #FFFFFF;
+    
+  }
+
+.columns {
+    display: flex;
+    column-gap: 20px;
+    margin-right: 98px;
+    
+}
+
+.colortext {
+    color: #d3f332;
+}
+
+/*Anim*/
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*Третья сраница*/
+
+#check2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 67px;
+  color: #FFFFFF;
+  padding-left: 46px;
+}
+
+.border1, .border2, .border3, .border4{
+  border: 1px solid #B1B1B1;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  width: 247px;
+  height: 250px;
+  display: inline-flex;
+  padding-top: 90px;
+  padding-left: 17px;
+  padding-right: 30px;
+  font-size: 16px;
+  
+}
+
+#bordr_radius{
+  
+}
+
+/* Color png*/
+#color_png1{
+  width: 221px;
+  height: 16px;
+  display: inline-flex;
+  margin-right: 140px;
+  margin-left: -140px;
+  margin-top: 106px;
+}
+#color_png2{
+  width: 221px;
+  height: 16px;
+  display: inline-flex;
+  margin-right: 140px;
+  margin-left: -140px;
+  margin-top: 106px;
+}
+#color_png3{
+  width: 221px;
+  height: 16px;
+  display: inline-flex;
+  margin-right: 140px;
+  margin-left: -125px;
+  margin-top: 106px;
+}
+#color_png4{
+  width: 221px;
+  height: 16px;
+  display: inline-flex;
+  margin-right: 140px;
+  margin-left: -105px;
+  margin-top: 106px;
+}
+
+
+
+
+#read1{
+  color: #d3f332;
+  white-space: nowrap;
+  margin-right: 140px;
+  margin-left: -220px;
+  margin-top: 150px;
+}
+
+#read2{
+  color: #d3f332;
+  white-space: nowrap;
+  margin-left: -220px;
+  margin-top: 150px;
+}
+
+#read3{
+  color: #d3f332;
+  white-space: nowrap;
+  margin-left: -220px;
+  margin-top: 150px;
+}
+
+#read4{
+  color: #d3f332;
+  white-space: nowrap;
+  margin-left: -220px;
+  margin-top: 150px;
+}
+
+/*4 страница*/
+.videos_box{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  min-height: 0;
+  flex-grow: 1;
+  gap: 69;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+
+
+/* VIDEO*/
+
+#video1 {
+  width: 703px;
+  height: 393px;
+}
+
+#video2 {
+  width: 147px;
+  height: 393px;
+}
+
+#video3 {
+  width: 147px;
+  height: 393px;
+}
+
+#video4 {
+  width: 276px;
+  height: 393px;
+} 
+
